@@ -6,7 +6,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public abstract
-class BaseActivity<T extends BasePresenter> extends AppCompatActivity {
+class BaseActivity<T extends BasePresenter<BaseView>> extends AppCompatActivity {
     protected T presenter;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
