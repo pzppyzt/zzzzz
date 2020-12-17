@@ -1,5 +1,5 @@
 package com.example.myapplication.base;
 
 public
-class BaseView {
+interface BaseView {
 }
